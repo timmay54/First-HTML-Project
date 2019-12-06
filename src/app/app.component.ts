@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Timothy-Mardesen-Portfolio';
+  //stuff = `Angular ${VERSION.full} stuff`;
+  //int lsl = 5;
 }

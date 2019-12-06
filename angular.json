@@ -6,7 +6,7 @@
     "Timothy-Mardesen-Portfolio": {
       "projectType": "application",
       "schematics": {},
-      "root": "",
+      "root": "First-HTML-Project",
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
