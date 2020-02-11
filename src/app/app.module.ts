@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { SquareComponent } from './square/square.component';
+import { NgxSpinnerModule } from '../../node_modules/ngx-spinner';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SquareComponent } from './square/square.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxSpinnerModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

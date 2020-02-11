@@ -130,5 +130,8 @@
       }
     }
   },
-  "defaultProject": "Timothy-Mardesen-Portfolio"
+  "defaultProject": "Timothy-Mardesen-Portfolio",
+  "cli": {
+    "analytics": "7ab2dd14-5e2b-4791-8878-1f1e2bdbe6c2"
+  }
 }
