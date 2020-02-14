@@ -1,7 +1,7 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "baseUrl": "./First-HTML-Project",    
+    "baseUrl": "./First-HTML-Project/",    
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,

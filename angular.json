@@ -122,9 +122,11 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
+            "baseHref": "https://timmay54.github.io/First-HTML-Project/",
             "branch": "master",
             "name": "Timothy Mardesen",
-            "email": "timothymardesen@yahoo.com"
+            "email": "timothymardesen@yahoo.com",
+            "noSilent": true
           }
         }
       }

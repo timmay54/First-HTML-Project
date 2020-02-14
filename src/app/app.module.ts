@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { SquareComponent } from './square/square.component';
 import { NgxSpinnerModule } from '../../node_modules/ngx-spinner';
+import { AppIntroComponent } from './app-intro/app-intro.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    SquareComponent
+    SquareComponent,
+    AppIntroComponent
   ],
   imports: [
     BrowserModule,

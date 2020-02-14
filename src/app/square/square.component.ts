@@ -3,10 +3,14 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-square',
   template: `
-    <p>
-      square works!
-    </p>
-  `,
+    <html>
+      <div>
+        <p>
+          square works!
+        </p>
+      </div>
+    </html>
+  ` ,
   styles: []
 })
 export class SquareComponent implements OnInit {
