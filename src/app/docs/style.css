@@ -1,0 +1,53 @@
+
+#container{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #999999
+}
+	#banner{
+		background-color: grey;
+		color: #66ffff;
+		text-align: center;
+		padding: 25px;
+}
+	#content{
+		padding: 10px;
+	
+}
+		#navigation{
+			width: 160px;
+			float: left;
+			background-color: #66ffff;
+			padding-bottom:252px;
+			
+	
+}
+		#main{
+			width: 595px;
+			float: right;
+			background-color: gray;
+			color:#66ffff;
+			padding-left: 25px;
+	
+}
+	#copyright{
+		color: #445566;
+		clear: both;
+		text-align: center;
+		padding: 10px 50px 50px 50px;
+		
+}
+	#oakland{
+		transform: rotate(180deg);
+		padding-top:125px;
+		padding-right:170px;
+		
+	
+	
+}
+.title{
+		margin: 175px;
+	
+	
+}
