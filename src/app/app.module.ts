@@ -9,6 +9,17 @@ import { AppIntroComponent } from './app-intro/app-intro.component';
 import { EducationComponent } from './education/education.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { ContactComponent } from './contact/contact.component';
+import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
+import { SnotifyModule, SnotifyService, ToastDefaults } from 'ng-snotify';
+import { HttpClientModule } from '@angular/common/http';
+import { ExtraOptions } from '@angular/router';
+import { ProfileService } from './profile.service';
+
+const config: ExtraOptions =  {
+  useHash: true,
+};
 
 @NgModule({
   declarations: [
@@ -17,14 +28,23 @@ import { ProjectsComponent } from './projects/projects.component';
     AppIntroComponent,
     EducationComponent,
     ExperienceComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    CommonModule,
+    HttpClientModule,
     NgxSpinnerModule,
+    FormsModule,
+    SnotifyModule,
   ],
-  providers: [],
+  providers: [
+    {  provide: 'SnotifyToastConfig', useValue: ToastDefaults},
+    SnotifyService,
+    ProfileService,
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
