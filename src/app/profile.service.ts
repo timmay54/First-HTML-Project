@@ -14,6 +14,6 @@ export class ProfileService {
   ) { }
 
   contactus(data: any): Observable<any> {
-    return this.http.post('http://localhost:8080/process' /*+ 'contact'*/, data, {observe: 'response'});
+    return this.http.post(this.baseUrl + '/process', data, {observe: 'response'});
   }
 }

@@ -8,7 +8,7 @@ export const environment = {
   production: true,
 
   // baseUrl : `${window.location.protocol}//${window.location.hostname}/portfolio/`,
-  baseUrl : `http://localhost:4200/First-HTML-Project/`,
+  baseUrl : `http://timmay54.onthewifi.com:7711`,
 
   snotifyConfig : {
     showProgressBar: true,
