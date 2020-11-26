@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgxSpinnerService } from '../../node_modules/ngx-spinner';
+import { environment } from '../environments/environment';
 
 @Component({
   selector: 'app-root',
@@ -8,6 +9,7 @@ import { NgxSpinnerService } from '../../node_modules/ngx-spinner';
 })
 export class AppComponent implements OnInit {
   title = 'Timothy-Mardesen-Portfolio';
+  AppVersion = environment.appVersion;
 
   constructor(private spinner: NgxSpinnerService) { }
 

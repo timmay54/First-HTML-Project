@@ -6,9 +6,11 @@ import { SnotifyPosition } from 'ng-snotify';
 
 export const environment = {
   production: true,
+  appVersion: '1.0.3',
+  appVerDateTime: '11/26/2020-00:00:00',
 
   // baseUrl : `${window.location.protocol}//${window.location.hostname}/portfolio/`,
-  baseUrl : `http://timmay54.onthewifi.com:7711`,
+  baseUrl : `https://timmay54.duckdns.org`,
 
   snotifyConfig : {
     showProgressBar: true,

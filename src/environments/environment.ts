@@ -6,6 +6,8 @@ import { SnotifyPosition } from 'ng-snotify';
 
 export const environment = {
   production: false,
+  appVersion: '1.0.2-Dev',
+  appVerDateTime: '11/25/2020-4:08',
   // baseUrl : `${window.location.protocol}//${window.location.hostname}/portfolio/`,
   baseUrl : `http://localhost:4200/First-HTML-Project/`,
 

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { environment } from '../environments/environment';
 
 @Injectable({
@@ -14,6 +14,12 @@ export class ProfileService {
   ) { }
 
   contactus(data: any): Observable<any> {
-    return this.http.post(this.baseUrl + '/process', data, {observe: 'response'});
+    const headers = {
+      Accept: 'application/json, text/plain, */*',
+      /*ContentType: 'application/json',*/
+      'Access-Control-Allow-Origin': '*',
+      Referer: ' '
+    };
+    return this.http.post(this.baseUrl + '/process', data, {headers, observe: 'response'});
   }
 }
