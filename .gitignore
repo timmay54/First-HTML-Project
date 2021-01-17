@@ -8,7 +8,7 @@
 /bazel-out
 
 # dependencies
-/node_modules
+# /node_modules including these for faster uptime
 
 # profiling files
 chrome-profiler-events*.json
@@ -25,10 +25,10 @@ speed-measure-plugin*.json
 
 # IDE - VSCode
 .vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+#!.vscode/settings.json
+#!.vscode/tasks.json
+#!.vscode/launch.json
+#!.vscode/extensions.json # I dont carea about these, leaving them out of git history
 .history/*
 
 # misc
@@ -44,3 +44,4 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+node_modules

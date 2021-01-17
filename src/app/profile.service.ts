@@ -18,7 +18,7 @@ export class ProfileService {
       Accept: 'application/json, text/plain, */*',
       /*ContentType: 'application/json',*/
       'Access-Control-Allow-Origin': '*',
-      Referer: ' '
+      //Referer: ' '
     };
     return this.http.post(this.baseUrl + '/process', data, {headers, observe: 'response'});
   }
