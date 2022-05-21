@@ -298,8 +298,6 @@ Apache-2.0
  
 
 
-timothy-mardesen-portfolio
-
 tslib
 Apache-2.0
 Apache License
